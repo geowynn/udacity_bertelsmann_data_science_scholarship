@@ -1,0 +1,80 @@
+# Metadata for Age-standardised incidence rate of the top three cancers by gender and 5-year period
+---
+Identifier: '08936cad-72eb-4853-b164-ffa8e65226fa'
+Name: 'age-standardised-incidence-rate-of-the-top-three-cancers-by-gender-and-5-year-period'
+Title: 'Age-standardised incidence rate of the top three cancers by gender and 5-year
+  period'
+Description:
+  - 'The table/figure shows the age-standardised incidence rate (per 100,000 population)
+    of the top three cancers among men and women in Singapore.'
+  - ''
+  - 'The rates are expressed as per 100,000 residential population and standardised
+    to the Segi World Population.'
+  - ''
+  - 'The numbers will be updated annually due to ongoing retrospective case collection.'
+Topics:
+  - 'Health'
+Keywords:
+  - 'Age Group'
+  - 'Cancer'
+  - 'Diseases'
+  - 'Gender'
+  - 'Healthcare'
+Publisher:
+  Name: 'Health Promotion Board'
+  Admin 1:
+    Name: 'Zheng Huili'
+    Department: 'NRDO'
+    Email: 'zheng_huili@hpb.gov.sg'
+  Admin 2:
+    Name: 'Eric Lee'
+    Department: 'NRDO'
+    Email: 'eric_lee@hpb.gov.sg'
+Sources:
+  - 'Health Promotion Board'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '1975-01-01 to 2010-12-31'
+Last Updated: '2017-04-20T15:26:19.789049'
+Resources:
+  -
+    Identifier: '9f9d8125-74c4-4183-a286-6f24fbeeabb2'
+    Title: 'Age-standardised incidence rate of the top three cancers by gender and
+      5-year period'
+    Url: 'https://storage.data.gov.sg/age-standardised-incidence-rate-of-the-top-three-cancers-by-gender-and-5-year-period/resources/age-standardised-incidence-rate-of-the-top-three-cancers-by-gender-and-5-year-period-2016-05-26T06-26-12Z.csv'
+    Format: 'CSV'
+    Coverage: '1975-01-01 to 2010-12-31'
+    Description: 'The incidence rates were directly age-standardised using the Segi
+      World Population.'
+    Last Updated: '2016-05-26T06:26:12.405510'
+    Schema:
+      -
+        Name: 'period_starting'
+        Title: 'Starting year of a 5-year period'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'period_ending'
+        Title: 'Ending year of a 5-year period'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'site'
+        Title: 'Site'
+        Type: 'text'
+        Sub Type: 'general'
+        Description: 'Primary site'
+      -
+        Name: 'gender'
+        Title: 'Gender'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'asir'
+        Title: 'Age-standardised incidence rate'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Per 100,000 residential population'
+        Description: 'Standardised to the Segi World Population'

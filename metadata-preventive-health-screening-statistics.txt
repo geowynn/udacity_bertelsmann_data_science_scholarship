@@ -1,0 +1,114 @@
+# Metadata for Preventive Health Screening Statistics
+---
+Identifier: 'a6fbafa8-9c27-49e3-9f7c-0066d3c2f392'
+Name: 'preventive-health-screening-statistics'
+Title: 'Preventive Health Screening Statistics'
+Description:
+  - '* Percentage of Primary 1 and equivalent age groups medically screened'
+  - '* Percentage of women aged 50 to 69 years who have gone for Mammography'
+  - 'in the last 2 years'
+  - '* Percentage of women aged 25 to 69 years who have Pap Smear done in the last
+    3 years'
+  - ''
+Topics:
+  - 'Health'
+Keywords:
+  - 'Cancer'
+  - 'Diseases'
+  - 'Healthcare'
+  - 'Public Health'
+Publisher:
+  Name: 'Ministry of Health'
+  Admin 1:
+    Name: 'Tan Hui Xing'
+    Department: 'Health Information Division'
+    Email: 'TAN_Hui_Xing@moh.gov.sg'
+  Admin 2:
+    Name: 'Koh Poh Yoke'
+    Department: 'Health Information Division'
+    Email: 'KOH_Poh_Yoke@moh.gov.sg'
+Sources:
+  - 'Ministry of Health'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2006-01-01 to 2015-12-31'
+Last Updated: '2017-05-30T08:48:43.966142'
+Resources:
+  -
+    Identifier: '6e0e6c64-ad77-4853-bc56-dc7bff959556'
+    Title: 'Percentage of Primary 1 and Equivalent Age Groups Medically Screened'
+    Url: 'https://storage.data.gov.sg/percentage-of-primary-1-and-equivalent-age-groups-medically-screened/resources/percentage-of-primary-1-and-equivalent-age-groups-medically-screened-2017-02-18T13-38-42Z.csv'
+    Format: 'CSV'
+    Coverage: '2006-01-01 to 2015-12-31'
+    Description: 'Percentage of Primary 1 and equivalent age groups medically screened'
+    Last Updated: '2017-02-18T21:38:43.117491'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'percent'
+        Title: 'Percent'
+        Type: 'numeric'
+        Sub Type: 'percentage'
+        Description:
+          - 'Percentage of Primary 1 and equivalent age groups medically screened'
+          - 'Percentages are expressed as a value over 100, i.e. "100" represents
+            100%'
+  -
+    Identifier: 'ae7613d6-8e7c-45a7-a134-0b403c9d9023'
+    Title: 'Percentage of Women Aged 50 to 69 Years Who have gone for Mammography
+      in the Last 2 Years'
+    Url: 'https://storage.data.gov.sg/percentage-of-primary-1-and-equivalent-age-groups-medically-screened/resources/percentage-of-women-aged-50-to-69-years-who-have-gone-for-mammography-in-the-last-2-years-2017-04-03T06-49-35Z.csv'
+    Format: 'CSV'
+    Coverage: '2010-01-01 to 2015-12-31'
+    Description: 'Percentage of women aged 50 to 69 years who have gone for mammography
+      in the last 2 years'
+    Last Updated: '2017-04-03T06:49:35.460722'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'percent'
+        Title: 'Percent'
+        Type: 'numeric'
+        Sub Type: 'percentage'
+        Description:
+          - 'Percentage of women aged 50 to 69 years who have gone for mammography
+            in the last 2 years'
+          - 'Percentages are expressed as a value over 100, i.e. "100" represents
+            100%'
+  -
+    Identifier: 'b011c120-589f-44f4-94bb-1390091b1b71'
+    Title: 'Percentage of Women Aged 25 to 69 Years Who have Pap Smear Done in the
+      Last 3 Years'
+    Url: 'https://storage.data.gov.sg/percentage-of-primary-1-and-equivalent-age-groups-medically-screened/resources/percentage-of-women-aged-25-to-69-years-who-have-pap-smear-done-in-the-last-3-years-2017-03-28T03-14-57Z.csv'
+    Format: 'CSV'
+    Coverage: '2010-01-01 to 2015-12-31'
+    Description: 'Percentage of women aged 25 to 69 years who have pap smear done
+      in the last 3 years'
+    Last Updated: '2017-03-28T03:14:57.799797'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'percent'
+        Title: 'Percent'
+        Type: 'numeric'
+        Sub Type: 'percentage'
+        Description:
+          - 'Percentage of women aged 25 to 69 years who have pap smear done in the
+            last 3 years'
+          - 'Percentages are expressed as a value over 100, i.e. "100" represents
+            100%'
